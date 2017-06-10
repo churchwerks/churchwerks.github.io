@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Hello World!"
-date:   2017-06-10 19:14:50 +0000
+date:   2017-06-10 15:14:51 -0400
 ---
 
-
+![https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtvKpgdbpuaIPTq9xHlpbFZyiPpXN7YUqyOe-Api4Y_fPS7CGACg](http://)
 I remember how cool it was when I first saw the 1984 Apple Super Bowl commercial on the TV.
 Knew then and there that I wanted to learn how to program a computer.
 
