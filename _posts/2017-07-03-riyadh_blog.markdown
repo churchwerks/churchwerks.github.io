@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Riyadh Blog"
-date:   2017-07-03 19:50:42 +0000
+date:   2017-07-03 15:50:42 -0400
 ---
 
 
@@ -25,4 +25,26 @@ Use CSS in the `style.css` file in the `css` folder to change different aspects 
 You can also try modifying these styles on-the-fly by modifying them with the [developer tools](https://www.youtube.com/watch?v=q3mWDijP_8w) of your [browser](http://www.sitepoint.com/edit-source-files-in-chrome/).
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-riyadh-blog' title='Code Challenge 1 - Riyadh Blog'>Code Challenge 1 - Riyadh Blog</a> on Learn.co and start learning to code for free.</p>
+
+
+**Bold**
+*Italic*
+###
+> quote
+
+unordered list
+* item
+* item2
+* item3
+* item4
+
+ordered list
+1. item
+2. item
+3. item
+
+[a journey of a thousand miles begins with a single step](https://en.wiktionary.org/wiki/a_journey_of_a_thousand_miles_begins_with_a_single_step#English)
+
+![DaodeTianzun.jpg](https://upload.wikimedia.org/wikipedia/commons/c/c7/DaodeTianzun.jpg)
+
 
