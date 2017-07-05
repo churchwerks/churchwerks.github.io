@@ -1,16 +1,6 @@
-<!-- FRONT -->
-
-#### PHARRELL WILLIAMS
-
-## HAPPY
-
-| FROM DESPICABLE ME 2 |
-
-<!-- BACK -->
+# HAPPY
 
 #### | &nbsp;&nbsp; FROM DESPICABLE ME 2 &nbsp;&nbsp; |
-
-# HAPPY
 
 ### WRITTEN BY PHARRELL WILLIAMS
 
