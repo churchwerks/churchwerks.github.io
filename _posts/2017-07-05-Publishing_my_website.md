@@ -1,7 +1,11 @@
 # The Journey Continues
 > a journey of a thousand miles begins with a single step
 
+<<<<<<< HEAD
 Format: ![Laozi](https://churchwerks.github.io/blob/master/img/DaodeTianzun.jpg)
+=======
+![Laozi](https://churchwerks.github.io/blob/master/img/DaodeTianzun.jpg)
+>>>>>>> 0201a84db22ace2e84014a2519a595909af21c25
 
 ## How I spent my 4th of July Holiday
 
