@@ -1,7 +1,7 @@
 # The Journey Continues
 > a journey of a thousand miles begins with a single step
 
-![DaodeTianzun.jpg](https://en.wiktionary.org/wiki/File:DaodeTianzun.jpg)
+![Laozi](https://churchwerks.github.io/blob/master/img/DaodeTianzun.jpg)
 
 ## How I spent my 4th of July Holiday
 
