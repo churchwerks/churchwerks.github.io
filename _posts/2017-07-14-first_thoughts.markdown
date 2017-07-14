@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "First Thoughts"
-date:   2017-07-14 16:53:02 +0000
+date:   2017-07-14 12:53:02 -0400
 ---
 
 I need to create a `#prime?()` for my next lab assignment which
@@ -11,7 +11,7 @@ My thoughts on how to do this are as follows:
 ## First Step
 There are no even numbers that are prime, other than the number 2. So we should check for that truth.
 ## Second Step
-`#prime?()` should first compare the integer to a list of known integers that are Prime. This list contains the first 168 Prime numbers and will have added to it any numbers that are found to be prime by the method itself.
+`#prime?()` should first compare the integer to a list of known integers that are Prime. This list contains the first 168 Prime numbers. The method will add to it any numbers that are found to be prime by the method itself.
 ## Third Step
 If the integer has passed both of the above steps, then we need to get our hands dirty and write some code.
 ```Ruby
