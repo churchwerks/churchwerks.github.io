@@ -201,4 +201,42 @@ class CashRegister
     @total = 0.00
   end
 ```
+Running the above results in:
+```Ruby
+CashRegister
+  ::new
+    sets an instance variable @total on initialization to zero
+    optionally takes an employee discount on initialization (FAILED - 1)
 
+Failures:
+
+  1) CashRegister ::new optionally takes an employee discount on initialization
+     Failure/Error:
+       def initialize
+         @total = 0.00
+       end
+
+     ArgumentError:
+       wrong number of arguments (given 1, expected 0)
+     # ./lib/cash_register.rb:5:in `initialize'
+     # ./spec/cash_register_spec.rb:3:in `new'
+     # ./spec/cash_register_spec.rb:3:in `block (2 levels) in <top (required)>'
+     # ./spec/cash_register_spec.rb:11:in `block (3 levels) in <top (required)>'
+
+Finished in 0.00286 seconds (files took 0.63958 seconds to load)
+2 examples, 1 failure
+
+Failed examples:
+
+rspec ./spec/cash_register_spec.rb:10 # CashRegister ::new optionally takes an employee discount on initialization
+```
+So great, we got our first test to pass!
+
+So lets get the next test to pass by adding this code.
+```Ruby
+attr_accessor :total, :employee_discount
+
+def initialize (employee_discount = nil)
+  @total = 0.00
+  @employee_discount = employee_discount
+end
