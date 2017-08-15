@@ -202,6 +202,7 @@ class CashRegister
   end
 ```
 Running the above results in:
+
 ```Ruby
 CashRegister
   ::new
@@ -240,3 +241,93 @@ def initialize (employee_discount = nil)
   @total = 0.00
   @employee_discount = employee_discount
 end
+```
+It passes! New failure below:
+
+```Ruby
+CashRegister
+  ::new
+    sets an instance variable @total on initialization to zero
+    optionally takes an employee discount on initialization
+  #total
+    returns the current total
+  #add_item
+    accepts a title and a price and increases the total (FAILED - 1)
+
+Failures:
+
+  1) CashRegister #add_item accepts a title and a price and increases the total
+     Failure/Error: expect{cash_register.add_item("eggs", 0.98)}.to change{cash_register.total}.by(0.98)
+
+     NoMethodError:
+       undefined method `add_item' for #<CashRegister:0x007f968924bcc0>
+     # ./spec/cash_register_spec.rb:24:in `block (4 levels) in <top (required)>'
+     # ./spec/cash_register_spec.rb:24:in `block (3 levels) in <top (required)>'
+
+Finished in 0.00348 seconds (files took 0.16365 seconds to load)
+4 examples, 1 failure
+
+Failed examples:
+
+rspec ./spec/cash_register_spec.rb:23 # CashRegister #add_item accepts a title and a price and increases the total
+```
+Again we need to refactor our code:
+
+```Ruby
+class CashRegister
+  attr_accessor :total, :employee_discount, :items
+
+  def initialize (employee_discount = nil)
+    @total = 0.00
+    @employee_discount = employee_discount
+    @items = []
+  end
+  def discount
+    self.employee_discount
+  end
+  def items
+    @items
+  end
+  def add_item(title, price, quantity = 1)
+    self.total += price * quantity
+    quantity.times do
+      items << title
+    end
+  end
+  def apply_discount
+    if @employee_discount
+      @total = @total * (1 - @employee_discount / 100)
+      "After the discount, the total comes to $#{@total}"
+    else
+      "There is no discount to apply."
+    end
+  end
+```
+So at this point, the problem with mixing the integers with floats occurs.
+If we run Learn --f-f we get the following error:
+
+```Ruby
+#apply_discount
+    the cash register was initialized with an employee discount
+      applies the discount to the total price (FAILED - 1)
+
+Failures:
+
+  1) CashRegister #apply_discount the cash register was initialized with an employee discount applies the discount to the total price
+     Failure/Error: expect(cash_register_with_discount.total).to eq(800)
+
+       expected: 800
+            got: 1000.0
+
+       (compared using ==)
+     # ./spec/cash_register_spec.rb:46:in `block (4 levels) in <top (required)>'
+
+Finished in 0.01152 seconds (files took 0.16025 seconds to load)
+7 examples, 1 failure
+
+Failed examples:
+
+rspec ./spec/cash_register_spec.rb:43 # CashRegister #apply_discount the cash register was initialized with an employee discount applies the discount to the total price
+```
+When I wrote the line of code self.total += price * quantity from the `add_item` method, I expected price to be a float with two decimal places as in dollars and cents. What was passed in however was an integer with a value of 800. This caused a whole host of problems that were only apparent with the help of the pry debugger. So I will show you that now.
+
