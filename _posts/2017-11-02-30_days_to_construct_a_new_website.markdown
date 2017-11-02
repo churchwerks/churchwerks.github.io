@@ -17,7 +17,7 @@ Every good Architect knows; it is easier to change a line on a blueprint, than t
 
 ### Day Two: The Right Tools for the Right Job 
 #### $700 Sliding Compound Miter Saw vs a Nokogiri Hand Saw?
-![Dewalt Saw](https://images-na.ssl-images-amazon.com/images/I/5172rOH-l3L._SX425_.jpg) ![Nokogiri Hand Saw](https://en.wikipedia.org/wiki/File:Jap_saw_Dozuki_P2100025a.jpg)
+![Dewalt Saw](https://images-na.ssl-images-amazon.com/images/I/5172rOH-l3L._SX425_.jpg) ![Nokogiri Hand Saw]
 Not every site needs industrial strength tools. Choosing the right tools, products and services for the website is an art in itself. Every thing; from your domain name provider, to your web hosting service and everything in between, needs to be chosen with the knowlege of what the purpose of the website is.
 
 ### Day Three: All Things Google
@@ -53,4 +53,4 @@ Each page of your website has a specific purpose. Make sure that Google know's w
 The moment of truth has arrived! You will monitor your website's visitors in real time and keep track of your Adwords spending. At the end of this day, you will have an idea if your website was a success or not. What is success? Only you will know, but you will know it. The rest of our websites life will depend on it. A good Webmaster strives to improve the website each and every day from this day forward.
 [Laozi](https://en.wiktionary.org/wiki/Laozi#English)
 > a journey of a thousand miles begins with a single step
-![Laozi](https://en.wiktionary.org/wiki/File:DaodeTianzun.jpg)
+
