@@ -17,7 +17,7 @@ Every good Architect knows; it is easier to change a line on a blueprint, than t
 
 ### Day Two: The Right Tools for the Right Job 
 #### $700 Sliding Compound Miter Saw vs a Nokogiri Hand Saw?
-![Dewalt Saw](https://images-na.ssl-images-amazon.com/images/I/5172rOH-l3L._SX425_.jpg) ![Nokogiri Hand Saw]
+![Dewalt Saw](https://images-na.ssl-images-amazon.com/images/I/5172rOH-l3L._SX425_.jpg)
 Not every site needs industrial strength tools. Choosing the right tools, products and services for the website is an art in itself. Every thing; from your domain name provider, to your web hosting service and everything in between, needs to be chosen with the knowlege of what the purpose of the website is.
 
 ### Day Three: All Things Google
