@@ -8,7 +8,7 @@ permalink:  30_days_to_construct_a_new_website
 
 So I'm going to spend the next thirty days designing and publishing a brand new static website. Start to Finish,for less than $500 dollars. I will take you through the process of constructing the website, step-by-step; everything from choosing a domain name, to having it show up in the Google search engine result pages,[SERPs](http://www.wordstream.com/serp). The outline shown below is the key to getting this task accomplished on time and on budget.
 
-## **30 Day Road Map**
+# **30 Day Road Map**
 ### Day One: Plan your Work, Work your Plan
 #### Draw the blueprint first, swing the hammer last.
 Every good Architect knows; it is easier to change a line on a blueprint, than to move a wall. Same with website designing. Don't build an awesome website and then find out that your domain name sucks. Don't start with Ruby on Rails and then decide a Wordpress framework makes more sense. As [Stephan Covey](https://www.stephencovey.com/7habits/7habits-habit2.php) wrote:
