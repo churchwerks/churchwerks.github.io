@@ -5,7 +5,6 @@ date:       2017-11-02 18:39:55 -0400
 permalink:  30_days_to_construct_a_new_website
 ---
 
-
 So I'm going to spend the next thirty days designing and publishing a brand new static website. Start to Finish,for less than $500 dollars. I will take you through the process of constructing the website, step-by-step; everything from choosing a domain name, to having it show up in the Google search engine result pages,[SERPs](http://www.wordstream.com/serp). The outline shown below is the key to getting this task accomplished on time and on budget.
 
  **30 Day Road Map**
@@ -34,7 +33,7 @@ From this point forward, all development work is done in a development site, not
  
 **Day Six: Menu Pages Still Under Construction**
 *Lay the Foundation and Build the Skeleton Framework.*
-Build a blank page for each menu item, build with the SEO optimization of it already in-place.
+Build a blank page for each menu item, build with the SEO optimization of each page already in-place.
 
 **Day Seven: Day of Rest**
 *Take a break, you deserve it.*
