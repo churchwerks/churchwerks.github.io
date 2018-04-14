@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Creating Your Brand Identity"
-date:       2018-04-14 20:08:56 +0000
+date:       2018-04-14 16:08:57 -0400
 permalink:  creating_your_brand_identity
 ---
 
